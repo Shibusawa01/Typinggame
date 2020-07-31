@@ -16,6 +16,12 @@ h1{
   margin: auto;
 }
 
+h2{
+  font-family: monospace;
+  color:#777777;
+  margin: auto;
+}
+
 #target{
   font-size:48px;
   Letter-spacing:3px;
