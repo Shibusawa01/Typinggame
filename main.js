@@ -7,6 +7,11 @@
     'blue',
     'middle',
     'set',
+    'banana',
+    'mail',
+    'address',
+    'service',
+
   ];
   let word;
   let loc;
