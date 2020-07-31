@@ -12,7 +12,7 @@
   let loc;
   let score;
   let miss;
-  const timeLimit = 3 * 1000;
+  const timeLimit = 15 * 1000;
   let startTime;
   let isPlaying = false;
 
@@ -39,7 +39,6 @@
 
     if (timeLeft < 0) {
       isPlaying = false;
-
       clearTimeout(timeoutId);
       timerLabel.textContent = '0.00';
       setTimeout(() => {
@@ -50,13 +49,13 @@
     }
   }
 
-  function showResult() {
+  function showResult(){
     const accuracy = score + miss === 0 ? 0 : score / (score + miss) * 100;
     alert(`${score} letters, ${miss} misses, ${accuracy.toFixed(2)}% accuracy!`);
   }
 
   window.addEventListener('click', () => {
-    if (isPlaying === true) {
+    if(isPlaying === true){
       return;
     }
     isPlaying = true;
@@ -74,10 +73,9 @@
   });
 
   window.addEventListener('keydown', e => {
-    if (isPlaying !== true) {
+    if(isPlaying !== true){
       return;
     }
-
     if (e.key === word[loc]) {
       loc++;
       if (loc === word.length) {
