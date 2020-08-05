@@ -2,7 +2,7 @@ body{
   padding-top:40px;
   font-family:'Courier New',monospace;
   text-align:center;
-  background:rgb(185, 185, 185);
+  background:rgb(248, 248, 248);
 }
 
 
@@ -32,7 +32,7 @@ h2{
   color:rgb(88, 88, 88);
 }
 
-.btn-flat-simple1 {
+.btn1 {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -44,13 +44,13 @@ h2{
   margin:0 15px;
 }
 
-.btn-flat-simple1:hover {
+.btn1:hover {
   background: #00bcd4;
   color: white;
   font-size:30px;
 }
 
-.btn-flat-simple2 {
+.btn2 {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -62,13 +62,13 @@ h2{
   margin:0 15px;
 }
 
-.btn-flat-simple2:hover {
+.btn2:hover {
   background: #c6d400;
   color: white;
   font-size:30px;
 }
 
-.btn-flat-simple3 {
+.btn3 {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -80,7 +80,7 @@ h2{
   margin:0 15px;
 }
 
-.btn-flat-simple3:hover {
+.btn3:hover {
   background: #d40000;
   color: white;
   font-size:30px;
