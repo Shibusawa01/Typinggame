@@ -54,13 +54,13 @@
     }
   }
 
-  function showResult(){
+  function showResult() {
     const accuracy = score + miss === 0 ? 0 : score / (score + miss) * 100;
     alert(`${score} letters, ${miss} misses, ${accuracy.toFixed(2)}% accuracy!`);
   }
 
   window.addEventListener('click', () => {
-    if(isPlaying === true){
+    if (isPlaying === true) {
       return;
     }
     isPlaying = true;
@@ -78,7 +78,7 @@
   });
 
   window.addEventListener('keydown', e => {
-    if(isPlaying !== true){
+    if (isPlaying !== true) {
       return;
     }
     if (e.key === word[loc]) {
